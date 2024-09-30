@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf.com</title>
+    <style>
+        /* Basic styles for body and layout */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #008080;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        /* Hero section */
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .hero img {
+            width: 100%;
+            height: auto;
+            max-height: 700px;
+        }
+
+        .hero h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 128, 128, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            /* Responsive styles */
+            header h1 {
+                font-size: 2em;
+            }
+
+            .hero h2 {
+                font-size: 2em;
+                padding: 10px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to Bookshelf.com</h1>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#home.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/deals.html">Today's Deals</a></li>
+            <li><a href="./pages/best.html">Best Buys</a></li>
+            <li><a href="./pages/popular.html">Popular Reads</a></li>
+            <li><a href="./pages/catalog.html">Catalog</a></li>
+            <li><a href="./pages/login.html">Login</a></li>
+            <li><a href="./pages/register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero section with image and heading -->
+    <div class="hero">
+        <img src="./images/shelf.webp" alt="Bookshelf" />
+        
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bookshelf.com | Bringing Readers Together</p>
+    </footer>
+</body>
+</html>

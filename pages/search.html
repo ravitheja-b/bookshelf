@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Genre - Bookshelf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        td img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        input[type="submit"] {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .catalog-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #2196F3;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 150px;
+        }
+        .catalog-button:hover {
+            background-color: #1976D2;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media screen and (max-width: 768px) {
+            td img {
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Book Genre - Bookshelf</h1>
+</header>
+
+<form action="cart.html" method="post">
+    <table>
+        <tr>
+            <th>Steve Jobs Biography</th>
+            <th>Python Programming</th>
+            <th>Learning AWS</th>
+            <th>Learning Azure</th>
+            <th>Java Programming</th>
+            <th>Google Cloud Platform</th>
+            <th>World Leaders</th>
+            <th>Sidney Sheldon - Are you Afraid of the Dark?</th>
+        </tr>
+        <tr>
+            <td><img src="../images/steve.jpg" alt="Steve Jobs Biography"></td>
+            <td><img src="../images/python.jpg" alt="Python Programming"></td>
+            <td><img src="../images/aws.jpg" alt="Learning AWS"></td>
+            <td><img src="../images/azure.jpg" alt="Learning Azure"></td>
+            <td><img src="../images/java.jpg" alt="Java Programming"></td>
+            <td><img src="../images/gcp.jpg" alt="Google Cloud Platform"></td>
+            <td><img src="../images/leaders.jpg" alt="World Leaders"></td>
+            <td><img src="../images/sydney.jpg" alt="Sidney Sheldon - Are You Afraid of the Dark"></td>
+        </tr>
+        <tr>
+            <td>INR 1400 <input type="submit" value="Add to cart"></td>
+            <td>INR 1100 <input type="submit" value="Add to cart"></td>
+            <td>INR 2400 <input type="submit" value="Add to cart"></td>
+            <td>INR 4100 <input type="submit" value="Add to cart"></td>
+            <td>INR 5400 <input type="submit" value="Add to cart"></td>
+            <td>INR 4600 <input type="submit" value="Add to cart"></td>
+            <td>INR 3000 <input type="submit" value="Add to cart"></td>
+            <td>INR 1800 <input type="submit" value="Add to cart"></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Rich Dad Poor Dad</th>
+            <th>My Experiments with Truth</th>
+            <th>Artificial Intelligence</th>
+            <th>Monk Who Sold His Ferrari</th>
+            <th>Bhujia Barons</th>
+            <th>Small Business Ideas</th>
+            <th>The TATAS</th>
+            <th>Harry Potter</th>
+        </tr>
+        <tr>
+            <td><img src="../images/rich.jpg" alt="Rich Dad Poor Dad"></td>
+            <td><img src="../images/gandhi1.jpg" alt="My Experiments with Truth"></td>
+            <td><img src="../images/ai.jpg" alt="Artificial Intelligence"></td>
+            <td><img src="../images/monk.png" alt="Monk Who Sold His Ferrari"></td>
+            <td><img src="../images/haldiram.jpg" alt="Bhujia Barons"></td>
+            <td><img src="../images/business.jpg" alt="Small Business Ideas"></td>
+            <td><img src="../images/tata.jpg" alt="The TATAS"></td>
+            <td><img src="../images/harry.jpg" alt="Harry Potter"></td>
+        </tr>
+        <tr>
+            <td>INR 400 <input type="submit" value="Add to cart"></td>
+            <td>INR 600 <input type="submit" value="Add to cart"></td>
+            <td>INR 500 <input type="submit" value="Add to cart"></td>
+            <td>INR 800 <input type="submit" value="Add to cart"></td>
+            <td>INR 700 <input type="submit" value="Add to cart"></td>
+            <td>INR 300 <input type="submit" value="Add to cart"></td>
+            <td>INR 700 <input type="submit" value="Add to cart"></td>
+            <td>INR 600 <input type="submit" value="Add to cart"></td>
+        </tr>
+    </table>
+</form>
+
+<!-- Homepage button -->
+<a href="catalog.html" class="catalog-button">Back</a>
+
+<footer>
+    &copy; 2024 Bookshelf. All Rights Reserved.
+</footer>
+
+</body>
+</html>
