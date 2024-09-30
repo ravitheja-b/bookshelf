@@ -1,7 +1,3 @@
-# ML-StockPrice-Prediction
-# ML-StockPrice-Prediction
-pip install -r requirements.txt
-cd models
-streamlit run chat-stockbot.py
 # bookshelf
 # bookshelf
+This is a Bookshelf web app built on HTML and CSS as a simple demonstration to create static pages
