@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Bookshelf</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        td img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .checkout-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #2196F3;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 150px;
+        }
+        .checkout-button:hover {
+            background-color: #1976D2;
+        }
+        .home-button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 150px;
+        }
+        .home-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Cart - Bookshelf</h1>
+</header>
+
+<table>
+    <tr>
+        <th>Book Title</th>
+        <th>Price</th>
+        <th>Image</th>
+    </tr>
+    <tr>
+        <td>Steve Jobs Biography</td>
+        <td>INR 1400</td>
+        <td><img src="../images/steve.jpg" alt="Steve Jobs Biography"></td>
+    </tr>
+    <tr>
+        <td>Python Programming</td>
+        <td>INR 1100</td>
+        <td><img src="../images/python.jpg" alt="Python Programming"></td>
+    </tr>
+    <tr>
+        <td>Learning AWS</td>
+        <td>INR 2400</td>
+        <td><img src="../images/aws.jpg" alt="Learning AWS"></td>
+    </tr>
+    <tr>
+        <td>Learning Azure</td>
+        <td>INR 4100</td>
+        <td><img src="../images/azure.jpg" alt="Learning Azure"></td>
+    </tr>
+    <tr>
+        <td>Java Programming</td>
+        <td>INR 5400</td>
+        <td><img src="../images/java.jpg" alt="Java Programming"></td>
+    </tr>
+    <tr>
+        <td>Google Cloud Platform</td>
+        <td>INR 4600</td>
+        <td><img src="../images/gcp.jpg" alt="Google Cloud Platform"></td>
+    </tr>
+    <tr>
+        <td>World Leaders</td>
+        <td>INR 3000</td>
+        <td><img src="../images/leaders.jpg" alt="World Leaders"></td>
+    </tr>
+    <tr>
+        <td>Sidney Sheldon - Are You Afraid of the Dark?</td>
+        <td>INR 1800</td>
+        <td><img src="../images/sydney.jpg" alt="Sidney Sheldon - Are You Afraid of the Dark?"></td>
+    </tr>
+    <tr>
+        <td>Rich Dad Poor Dad</td>
+        <td>INR 400</td>
+        <td><img src="../images/rich.jpg" alt="Rich Dad Poor Dad"></td>
+    </tr>
+    <tr>
+        <td>My Experiments with Truth</td>
+        <td>INR 600</td>
+        <td><img src="../images/gandhi1.jpg" alt="My Experiments with Truth"></td>
+    </tr>
+    <tr>
+        <td>Artificial Intelligence</td>
+        <td>INR 500</td>
+        <td><img src="../images/ai.jpg" alt="Artificial Intelligence"></td>
+    </tr>
+    <tr>
+        <td>Monk Who Sold His Ferrari</td>
+        <td>INR 800</td>
+        <td><img src="../images/monk.png" alt="Monk Who Sold His Ferrari"></td>
+    </tr>
+    <tr>
+        <td>Bhujia Barons</td>
+        <td>INR 700</td>
+        <td><img src="../images/haldiram.jpg" alt="Bhujia Barons"></td>
+    </tr>
+    <tr>
+        <td>Small Business Ideas</td>
+        <td>INR 300</td>
+        <td><img src="../images/business.jpg" alt="Small Business Ideas"></td>
+    </tr>
+    <tr>
+        <td>The TATAS</td>
+        <td>INR 700</td>
+        <td><img src="../images/tata.jpg" alt="The TATAS"></td>
+    </tr>
+    <tr>
+        <td>Harry Potter</td>
+        <td>INR 600</td>
+        <td><img src="../images/harry.jpg" alt="Harry Potter"></td>
+    </tr>
+</table>
+
+<a href="dummycheckout.html" class="checkout-button">Checkout</a>
+<a href="../index.html" class="home-button">Home</a>
+
+<footer>
+    &copy; 2024 Bookshelf. All Rights Reserved.
+</footer>
+
+</body>
+</html>
